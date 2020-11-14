@@ -16,6 +16,11 @@ background-color:#fff;
 background-color:#f4f4f4;
 
 }
+.bg-color-workhistory{
+
+background-color: #9b59b6;
+
+}
 
 .ui-menu-color-home{
 
@@ -78,6 +83,7 @@ padding:0 30px 30px;
 float:none;
 }
 
+.history-heading,
 .section-heading {
 
     font-family: "Poppins", sans-serif;
@@ -102,7 +108,7 @@ margin-left: 50px;
 }
 
 .logo {
-  background:url("../img/me.jpg");
+  background:url("../img/rosie.jpg");
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -332,4 +338,61 @@ margin-bottom:4px;
 .progress-section{
  margin: 40px 20px;
 
+}
+
+/*------Work History--------*/
+
+.history-heading{
+
+    color:#fafafa;
+    margin-bottom:50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item {
+
+   padding: 4em 2em 06m 2em;
+   position: relative;
+   color: #fafafa;
+   border-left: 1px solid;
+
+}
+
+.timeline-item p{
+
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+  content: attr(data-dates);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display:block;
+  font-family:500;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+
+}
+
+.timeline-item:after {
+   width:12px;
+   height: 12px;
+   display: bloack;
+   position: absolute;
+   left: -6px;
+   border-radius: 12px;
+   background: #fafafa;
+}
+
+.history-items{
+    margin-bottom: 30px;
 }

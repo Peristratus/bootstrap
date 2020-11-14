@@ -113,7 +113,7 @@ margin-left: 50px;
 }
 
 .logo {
-  background:url("../img/rosie.jpg");
+  background:url("../img/orgrosie.jpg");
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -391,10 +391,12 @@ margin-bottom:4px;
 .timeline-item:after {
    width:12px;
    height: 12px;
-   display: bloack;
+   display: block;
+   top: 2.4em;
    position: absolute;
    left: -6px;
    border-radius: 12px;
+   content:"";
    background: #fafafa;
 }
 
@@ -438,3 +440,4 @@ margin-bottom: 20px;
 
   }  
 }
+

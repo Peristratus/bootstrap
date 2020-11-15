@@ -1,47 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rosie website</title>
-
-    <!---BootStrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-    <!-- Google Fonts -->
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-
-    <!--CSS Tempalte--->
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosie Landing Page</title>
+  <script src="https://kit.fontawesome.com/a2299b25aa.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  
 </head>
 <body>
-  <header id="header" class="header-tops">
-    <div class="container">
-
-      <h1>Rose Odenkirk</h1>
-      
-      <h2>I'm a passionate <a href="resume.html"><span>full stack Web developer</span></a> from Ontario</h2>
-
-       <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="resume.html">get to know me</a></li>
-         </ul>
-       </nav>
-	  <!-- .nav-menu -->
-
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+  <section class="sec">
+   <header>
+     <a href=""><img src="../img/python.png" class="logo"></a>
+     <div class="toggleMenu" onlick ="menuToggle();"></div>
+     <ul class= "navigation">
+       <li><a href="resume.html">Home</a></li>
+       <li><a href="ro_resume.html">Resume</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a href="cv/sample-cv.pdf" target="_blank">Download</a></li>
+      </ul>
+    </header> 
+    <div class="content">
+      <div class= "textbox">
+        <h2>Rosie Odenkirk <br><span> Full Stack Developer</span></h2>
+        <p> 
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+        </p>
+        <a href="https://pages.github.com/">View my git hub</a>
       </div>
+   <div class="imagbox">
+     <img src="../img/CSS3.png" class="pepesi">
+     </div>
+     </div>
+     <ul class ="thumb">
+     <li><img src="../img/CSS3.png" onclick="imgSlider('../img/CSS3.png');changeBgColor('#0062b6')"></li>
+     <li><img src="../img/html5-.png" onclick="imgSlider('../img/html5-.png');changeBgColor('#FF4500')"></li>
+     <li><img src="../img/java.webp" onclick="imgSlider('../img/java.webp');changeBgColor('#e60c2c')"></li>
+     </ul>
+     <ul class="sci">
+        <li> <a href="https://www.facebook.com" target= "_blank"><img src="../img/facebook-new.png"> </a>
+        </li>
+        <li> <a href="https://www.twitter.com" target= "_blank"><img src="../img/twitter.webp"> </a></li>
+        <li> <a href="https://www.youtube.com" target= "_blank"> <img src="../img/youtube.png"> </a></li>
+        <li> <a href="https://instergram.com" target= "_blank"><img src="../img/instagram.png"></a></li>
+      </ul>
+  </section>
+     <script type="text/javascript">
+       function imgSlider(anything){
+       document.querySelector(".pepesi").src = anything;
+     }
+     function changeBgColor(color){
+     const sec = document.querySelector('.sec');
+     sec.style.background = color;
 
-    </div>
-  </header>
-    
+     }
+
+     function menuToggle(){
+    const toggleMenu = document.querySelector('.toggleMenu');
+    const navigation = document.querySelector('.navigation');
+     toggleMenu.classList.toggle('active');
+     navigation.classlist.toggle('active');
+     }
+     </script>
+  
 </body>
 </html>
+

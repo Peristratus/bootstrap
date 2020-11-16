@@ -428,6 +428,14 @@ margin-bottom: 20px;
 
 }
 
+label input:valid + .text-input {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
 /* Media queries*/
 
 @media(min-width: 992px){

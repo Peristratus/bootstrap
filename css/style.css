@@ -82,6 +82,10 @@ align-items: center;
   max-width: 600px;
 }
 
+.pjust{
+text-align:justify;
+}
+
 .content .textbox h2 {
  color: #fff;
  font-size: 4em;

@@ -463,6 +463,11 @@ label input:valid + .text-input {
   transform: translateY(-74px);
 }
 
+div#map {
+    min-height: 360px;
+}
+
+
 /* Media queries*/
 
 @media(min-width: 992px){

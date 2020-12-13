@@ -35,7 +35,7 @@
      </div>
      </div>
      <ul class ="thumb">
-     <li><img src="../img/CSS3.png" onclick="imgSlider('../img/py22.gif');changeBgColor('#0062b6')" alt="CSS3 img"></li>
+     <li><img class="play" src="../img/CSS3.png" onclick="imgSlider('../img/py22.gif');changeBgColor('#0062b6')" alt="CSS3 img"></li>
      <li><img src="../img/html5-.png" onclick="imgSlider('../img/html5-.png');changeBgColor('#FF4500')" alt="HTML5 img"></li>
      <li><img src="../img/java.webp" onclick="imgSlider('../img/java.webp');changeBgColor('#e60c2c')" alt="JavaScript img"></li>
      </ul>
@@ -46,6 +46,7 @@
         <li> <a href="https://www.youtube.com" target= "_blank"> <img src="../img/youtube.png" alt="youtube img"> </a></li>
         <li> <a href="https://instergram.com" target= "_blank"><img src="../img/instagram.png" alt="instagram img"></a></li>
       </ul>
+
   </section>
      <script type="text/javascript">
        function imgSlider(anything){
@@ -57,14 +58,15 @@
 
      }
 
-     function menuToggle(){
+    function menuToggle(){
     const toggleMenu = document.querySelector('.toggleMenu');
     const navigation = document.querySelector('.navigation');
      toggleMenu.classList.toggle('active');
      navigation.classlist.toggle('active');
      }
      </script>
-  
+
+      
 </body>
 </html>
 

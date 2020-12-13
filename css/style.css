@@ -79,7 +79,7 @@ align-items: center;
 
 .content .textbox{
   position: relative;
-  max-width: 600px;
+  max-width: 580px;
 }
 
 .pjust{
@@ -263,7 +263,7 @@ cursor: pointer;
 }
 
 .toggleMenu.active {
-background:url(../img/close.png);
+background:url(../img/p114.png);
 background-position: center;
 background-size: 25px;
 background-repeat: no-repeat;

@@ -65,7 +65,26 @@
      navigation.classlist.toggle('active');
      }
      </script>
+     
+     <audio id ="aud" controls autoplay>
+       <source src ="davido.mp3" type="audio/mpeg">
+     </audio>
+     
+   <script type ="text/javascript">
+    var myaud =document.getElementById("aud");
+    var k =setInterval ("playAud()", 156000);
 
+    function playAud() {
+          myaud.play();
+    }
+
+   function playAud() {
+
+       myaud.pause();
+       clearInterval(k); 
+   }
+    
+    </script>
       
 </body>
 </html>

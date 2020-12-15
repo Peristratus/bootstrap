@@ -11,7 +11,7 @@
  - [User-Acceptance-Testing](#User-Acceptance-Testing)
  - [Technologies](#technologies)
  - [Deployment](#Deployment)
- - [References](#refernces)
+ - [References](#Refernces)
  - [Licenses](#licenses)
  - [Author](#author)
 
@@ -25,7 +25,7 @@
  over these images at the bottom of the page, they float up, once any of the images are clicked by the user the image on the right will change and this event will
  trigger a change in the landing page color. Additional features are once the page is loaded this trigger some audio music to play in the background, once 
  the user navigates through the nav link the music stops, if the user remains on the landing page the music continues playing for 2mins. The music type selected 
- is part of Rosie elevator statement.
+ is part of Rosie's elevator statement.
  
 ----------------------------
  ## User-stories

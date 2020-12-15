@@ -18,21 +18,13 @@
 ------------------------
  ## Description
 
- The inspiration for developing this website was to start to lay the foundations for a bitcoin/crypto currency wallet and trading platform, this
- is purley educational at this juncture and part of my first project for the Canadian Business college as a full stack developer, i intend to 
- build on this application as my skills evolve throughout my learning process, the website will slowly develop into a fully functional website 
- with the first application "crypto wallet" becoming fully funtional in the coming few months, the second stage devlopment will be a crypto 
- currency platform and the final stage development will be the AI trading bots. These two attributes will be added as my skill become more 
- discerniable, I would also like to collaborate with anyone on github to accomplish these set objectives. I hope to develop this project to 
- become ubiquitous with users around the world.
-
- ### Wireframes & Mock-ups
- Wireframes file bqwireframe saved in PDF  ,UX Design file saved in PDF, Sitemap file saved in pdf and Mock-ups file MTD_view saved in PDf.
- 1.  [wireframes](/wireframe-img/bqwireframe.pdf)
- 2.  [UX Design](/wireframe-img/bq_ux.pdf)
- 3.  [Sitemap](/wireframe-img/smap.pdf)
- 4.  [Mock-ups](/wireframe-img/MTD_view.pdf)
- 5.  [README file img](/wireframe-img/bqimg.png)
+ This mini project is part of my on going Full Stack Software Developer course at Canadian Business college in collaboration with the Code Instititute.
+ The website is based on a fictional resume website for Rosie Odenkirk, this project is supposed to showcase my skills in HTML,CSS, JavaScript , Jquery 
+ and the hook-up of the google maps, GitHub and EMAILjs API integrated into the webdesign. I also have a landing page with some additional design & features 
+ to lure more users to the website and keep them entertained while exploring the landing page, there are pictures of the HTML, CSS and jS , when the mouse hovers
+ over these images at the bottom of the page, they float up, once any of the images are clicked by the user the image on the right will change and this event will
+ trigger a change in color. Other features added on the landing page are the color changing python gif icon,once the page is loaded this trigger some audio music to
+ play in the background, once the user navigates through the nav link the music stops, if the user remains on the landing page the music continues playing for 2mins.
  
 ----------------------------
  ## User-stories
@@ -46,11 +38,11 @@
 
 HLR   |  HLR Ref# |    HLR Description    |                              User Stories                                                    |                                                      Acceptance criteria                                                                                        |                                MoSCoW                                                                                                                |
 ------|---------- |-----------------------|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------| 
-Home  | H-1.0     | Gain access to home section    | **As a** user **I want** to access the home section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the Home Nav link **then** the system  will scroll to the home section. |     M   |
-Services |  S-2.0   | Gain access to Services section  |  **As a** user **I want** to access the Services section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the services Nav link **then** the system  will scroll to the services section. |    M   |
-All Services | S-2.1 | Gain accessto All Services section| **As a** user **I want** to access the All services section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the All services button **then** the system  will take the user to the second page for all services. |    M   |
-All Services | S-2.2 | Gain accessto All Services section| **As a** user **I want** to access the All services section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the All services Nav link **then** the system  will take the user to the second page for all services. |    M   |
-Testimonials | T-3.0 | Gain access to Testimonials section| **As a** user **I want** to access the Testimonials section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the Testimonials Nav link **then** the system  will scroll to the Testimonials section. |    M   |
+Home  | H-1.0     | Gain access to landing page    | **As a** user **I want** to access the Rosie's landing page of Rosie's website  **so that** I can gain access to the site content.| **Given** that the user is on Rosie Landing page, **When** they click on the Home Nav link **then** the system  will take them to the About me section of Rosie Resume website. |     M   |
+Home |  H-1.1   | Gain access to landing page  |  **As a** user **I want** to access the Rosie's landing page of Rosie's website **so that** I can see have access to the icons at the bottom of the page .| **Given** that the user is on Rosie's website, **When** they click on the HTML,CSS or JS icons at the bottom of the page **then** the system will change the image on the right hand side of the page and color background of the web page . |    M   |
+ Resume | R-2.0 | Gain access to Resume page | **As a** user **I want** to access the Resume section of Rosie's website   **so that** I can gain access to the site content.| **Given** that the user is on Rosie's website, **When** they click on the Resume Nav link **then** the system  will take the user to Resume section to view the information. |    M   |
+Contact | C-1.0 | Gain access to contact page | **As a** user **I want** to access the contact section of Rosie's website  **so that** I can gain access to the site content.| **Given**  that the user is on Rosie's website, **When** they click on the contact Nav link **then** the system  will take the user to the contact page. |    M   |
+Contact Form | c-1.0| Gain access to the contact form | **As a** user **I want** to access the contact form on Rosie's website **so that** I can gain use the contact form.| **Given** that the user is on on Rosie's website, **When** they click on the contact Nav link **then** the system will take the user to the contact page where they can fill in the form and submit their information. |    M   |
 Contact | C-4.0 | Gain access to section | **As a** user **I want** to access the Contact section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the Contact Nav link **then** the system  will scroll to the Contact section. |    M   |
 Subscribe email input | C-4.1| Gain access to the subscribe email input| **As a** user **I want** to fill in my email input for subscription on Bitquest **so that** I can subscribe to their News letter.| **Given** that the user is on the Bitquest platform, **When** they input their email **then** the system will accept the user's input and validate .|    S  |
 Subscribe button | C-4.2| Gain access to the subscribe button| **As a** user **I want** to click on the subscribe button on Bitquest **so that** I can subscribe to their News letter.| **Given** that the user is on the Bitquest platform, **When** they click on the subscribe button **then** the system will accept the user's input and register them .|    S  |

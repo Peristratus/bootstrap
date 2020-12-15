@@ -24,7 +24,8 @@
  to lure more users to the website and keep them entertained while exploring the landing page, there are pictures of the HTML, CSS and jS icons , when the mouse hovers
  over these images at the bottom of the page, they float up, once any of the images are clicked by the user the image on the right will change and this event will
  trigger a change in the landing page color. Additional features are once the page is loaded this trigger some audio music to play in the background, once 
- the user navigates through the nav link the music stops, if the user remains on the landing page the music continues playing for 2mins.
+ the user navigates through the nav link the music stops, if the user remains on the landing page the music continues playing for 2mins. The music type selected 
+ is part of Rosie elevator statement.
  
 ----------------------------
  ## User-stories
@@ -96,7 +97,7 @@ APT-WSR-9.0 |H-1.0,S-2.0,T-3.0,C-4.0 & A-5.0 | Responsive Website    | APT-L-6.7
 ## Technologies 
 
 The technologies employed to develop this web application was based on the principles of Design for X (DFX) also know as Design for excellence, the basis of this methodology is based
-on cost to quality, making effective use of resources to minimize cost and relay more on innovation and technical knowledge to meet the users expectations.The software's used are free 
+on cost to quality, making effective use of resources to minimize cost and relay more on innovation and technical knowledge to meet the users expectations.The software's used are mostly free 
 and meet the **Requirements Traceability Catalog Table 1.0** to develop this website, innovation and technical knowledge was based on my recently aquired skills based on my journey so 
 far with Code institute and the Canadian Business College.
 

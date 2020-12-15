@@ -41,27 +41,14 @@ HLR   |  HLR Ref# |    HLR Description    |                              User St
 Home  | H-1.0     | Gain access to landing page    | **As a** user **I want** to access the Rosie's landing page  **so that** I can gain access to the site content.| **Given** that the user is on Rosie Landing page, **When** they click on the Home Nav link **then** the system  will take them to the About me section of Rosie's website. |     M   |
 Home |  H-1.1   | Gain access to landing page  |  **As a** user **I want** to access the Rosie's landing page **so that** I can see have access to the icons at the bottom of the page .| **Given** that the user is on Rosie's website, **When** they click on the HTML,CSS or JS icons at the bottom of the page **then** the system will change the image on the right hand side of the page and color background of the web page . |    M   |
  Resume | R-2.0 | Gain access to Resume page | **As a** user **I want** to access the Resume section of Rosie's website   **so that** I can gain access to the site content.| **Given** that the user is on Rosie's website, **When** they click on the Resume Nav link **then** the system  will take the user to Resume section to view the information. |    M   |
-Contact | C-1.0 | Gain access to contact page | **As a** user **I want** to access the contact section of Rosie's website  **so that** I can gain access to the site content.| **Given**  that the user is on Rosie's website, **When** they click on the contact Nav link **then** the system  will take the user to the contact page. |    M   |
-Contact Form | c-1.0| Gain access to the contact form | **As a** user **I want** to access the contact form on Rosie's website **so that** I can use the contact form.| **Given** that the user is on on Rosie's website, **When** they click on the contact Nav link **then** the system will take the user to the contact page where they can fill in the form and submit their information. |    M   |
-Contact | C-4.0 | Gain access to section | **As a** user **I want** to access the Contact section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the Contact Nav link **then** the system  will scroll to the Contact section. |    M   |
-Subscribe email input | C-4.1| Gain access to the subscribe email input| **As a** user **I want** to fill in my email input for subscription on Bitquest **so that** I can subscribe to their News letter.| **Given** that the user is on the Bitquest platform, **When** they input their email **then** the system will accept the user's input and validate .|    S  |
-Subscribe button | C-4.2| Gain access to the subscribe button| **As a** user **I want** to click on the subscribe button on Bitquest **so that** I can subscribe to their News letter.| **Given** that the user is on the Bitquest platform, **When** they click on the subscribe button **then** the system will accept the user's input and register them .|    S  |
-About Us | A-5.0 | Gain access to About us section | **As a** user **I want** to access the About us section of Bitquest **so that** I can gain access to the site content.| **Given** that the user is on the Bitquest platform, **When** they click on the About us Nav link **then** the system  will scroll to the About section. |    M   |
-Login form | L-6.0 | Gain access to login section| **As a** user **I want** to access the Login Modal form for Bitquest **so that** I can gain access to the Login information.| **Given** that the user is on the Bitquest platform, **When** they click on the Login nav link **then** the system  will scroll to the login button.|    M   |
-Login form btn| L-6.1 | Gain access to login button| **As a** user **I want** to access the Login Modal btn for Bitquest **so that** I can gain access to the Login form.| **Given** that the user is on the Bitquest platform, **When** they click on the Login button **then** the system  will display the Modal login form and accept/ validte the users input .|    M   |
-Login submit btn| L-6.2 | Gain access to submit button| **As a** user **I want** to access the Login Modal submit btn for Bitquest **so that** I can submit my login credentials.| **Given** that the user is on the Bitquest platform, **When** they click on the submit button **then** the system will validte the users input .|    M   |
-Login cancel btn| L-6.3 | Gain access to cancel button| **As a** user **I want** to access the Login cancel btn for Bitquest **so that** I can cancel my login.| **Given** that the user is on the Bitquest platform, **When** they click on the login cancel button **then** the system will close the modal form .|    M   |
-Login close btn | L-6.4 | Gain access to close button| **As a** user **I want** to access the Login close btn for Bitquest **so that** I can close my login form.| **Given** that the user is on the Bitquest platform, **When** they click on the login close button **then** the system will close the modal form .|    M   |
-Login close outside modal form| L-6.5 | Gain access to close the modal form| **As a** user **I want** to click outside the modal form on Bitquest **so that** I can close my login form.| **Given** that the user is on the Bitquest platform, **When** they click outside the modal login form **then** the system will close the modal form .|    M   |
-Login form forget Password Link| L-6.6 | Gain access the forget password link| **As a** user **I want** to click on the forget password link on Bitquest **so that** I can change my password.| **Given** that the user is on the Bitquest platform, **When** they click on the forget password link **then** the system will prompt the user to update their new password input .|    M  |
-Login form Remember check box| LCB-6.7 | Gain access remember me check box| **As a** user **I want** to check the remember me checkbox on Bitquest **so that** the login form will remember my login credentials.| **Given** that the user is on the Bitquest platform, **When** they check the remember me checkbox **then** the system will prompt the user to store their credentials on google chrome.|    M  |
-Signup form | SF-7.0 | Gain access to signup section| **As a** user **I want** to access the signup section of Bitquest **so that** I can gain access to the signup form.| **Given** that the user is on the Bitquest platform, **When** they click on the signup Nav link **then** the system  will go to the signup section, dispaly the form, the form will accept/ validate the users information |    M   |
-Signup form btn | SF-7.1 | Gain access to signup button| **As a** user **I want** to access the signup btn form for Bitquest **so that** I can gain access to the signup form.| **Given** that the user is on the Bitquest platform, **When** they click on the signup btn **then** the system will go to the signup section, dispaly the form, the form will accept/ validate the users information. |    M   |
-Signup submit btn| SF-7.2 | Gain access to submit button| **As a** user **I want** to access the signup submit btn for Bitquest **so that** I can submit my signup credentials.| **Given** that the user is on the Bitquest platform, **When** they click on the submit button **then** the system will validte the users input .|    M   |
-Signup Form Social Media buttons | SF-7.3 | Gain access to signup social media button| **As a** user **I want** to access the signup form social media buttons on Bitquest **so that** I can gain access to the signup form' and register via social media.| **Given** that the user is on the Bitquest platform, **When** they click on the social media btn of their choice on the signup form **then** the system will allow the user to register with their social media credentials. |    M   |
-Play btn| PLB-8.0 | Gain access to play button| **As a** user **I want** to access the play video btn on Bitquest **so that** I can watch the video.| **Given** that the user is on the Bitquest platform, **When** they click on the play button **then** the system should play the video .|    M   |
-Play Close btn| PLB-8.1 | Gain access to the video| **As a** user **I want** to access the close play video icon on Bitquest **so that** I can close the video.| **Given** that the user is on the Bitquest platform, **When** they click on the close button **then** the system should close the video .|    M   |
-
+Contact | C-3.0 | Gain access to contact page | **As a** user **I want** to access the contact section of Rosie's website  **so that** I can gain access to the site content.| **Given**  that the user is on Rosie's website, **When** they click on the contact Nav link **then** the system  will take the user to the contact page. |    M   |
+Contact Form | c-3.1| Gain access to the contact form | **As a** user **I want** to access the contact form on Rosie's website **so that** I can use the contact form.| **Given** that the user is on on Rosie's website, **When** they click on the contact Nav link **then** the system will take the user to the contact page where they can fill in the form and submit their information. |    M   |
+Interest | I-4.0 | Gain access to Interest page | **As a** user **I want** to access the interest page on Rosie's website  **so that** I can gain access to the content.| **Given** that the user is on on Rosie's website, **When** they click on the interest Nav link **then** the system will take the user to the interest page . |    M   |
+Google map | C-4.1| Gain access to Interest page Google map| **As a** user **I want** to access the google map on the interest page **so that** I can see all the conferences that Rosie has attended.| **Given** that the user is on on Rosie's website, **When** they click on the interest Nav link **then** the system will allow the user gain access to the google map and the map marker information .|    M  |
+GitHub | G-5.0| Gain access to the GitHub page | **As a** user **I want** to access the Github page on Rosie's website **so that** I can gain access to the content .| **Given** that the user is on on Rosie's website, **When** they click on the Github Nav link  **then** the system will allow the user to gain access to Rosie's Github information .|    S  |
+GitHub search | G-5.1 | Gain access to the GitHub page | **As a** user **I want** to access the Github page on Rosie's website**so that** I can gain access to the site content.| **Given** that the user is on on Rosie's website, **When** they click on the Github Nav link **then** the system will allow the user access to Github search engine . |    M   |
+Download | D-6.0 | Gain access to Down load | **As a** user **I want** to access the Rosie's CV **so that** i can review her information| **Given** that the user is on on Rosie's website, **When** they click on the Login download link **then** the system will open another page with the CV in PDF format .|    M   |
+Social Media | D-7.0 | Gain access to Social Media Icon | **As a** user **I want** to access the Rosie's social media accounts **so that** I can find out more information about her.| **Given** that the user is on on Rosie's website, **When** they click on the selected social media icons **then** the system will take the user to Rosie's social media account .|    M   |
 
 
 ## User-Acceptance-Testing
@@ -74,8 +61,8 @@ The UAT critreria and results will confirm if the website can handle required ta
 
  Test#    | User stories Ref# |        Description of task        |               Steps to evaluate    |                        Expected Result                                                                                                                                                                                                                             |            Pass / Fail / Comments                             |  
 --------  |-------------------|-----------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------| 
-APT-H-1.0  | H-1.0             | Home nav link                     | APT-H-1.1: Click home Nav link      | The button should be funtional and scroll to the home section of the website                                                                                                                                                                                     |                     Pass                                      |
-APT-S-2.0  | S-2.0             | Services nav link                 | APT-S-2.1: Click services Nav link  | The button should be funtional and scroll to the services section of the website                                                                                                                                                                                 |                     Pass                                      |                                                                         
+APT-H-1.0  | H-1.0             | Home nav link                     | APT-H-1.1: Click home Nav link      | The link should be funtional and take the user to the About Me page.                                                                                                                                                                                     |                     Pass                                      |
+APT-H-1.1 |  H-1.1             | Services nav link                 | APT-S-2.1: Click services Nav link  | The button should be funtional and scroll to the services section of the website                                                                                                                                                                                 |                     Pass                                      |                                                                         
 APT-S-2.1  | S-2.1             | All Services button               | APT-S-2.1.1: Click All services button| The button should be funtional and load the second page of the the website, once correponding nav-link is click it will scroll down to all services section                                                                                                    |                     Pass                                      |
 APT-S-2.1  | S-2.2             | All Services nav link              | APT-S-2.2.1: Click All services nav link| The button should be funtional and load the second page of the the website, once correponding nav-link is click it will scroll down to all services section                                                                                                 |                     Pass                                      |                                                                   
 APT-T-3.0  | T-3.0             | Testimonials nav link             | APT-T-3.1: Click Testimonials Nav link| The button should be funtional and scroll to the testimonials section of the website                                                                                                                                                                           |                     Pass                                      |                                                        
@@ -115,29 +102,31 @@ far with Code institute and the Canadian Business College.
 
 Technologies deployed on this project:
 
- 1. For Wire frames, sitemap and UX design draw.io [draw.io](https://app.diagrams.net/)
- 2. For Mock-ups Micrisoft Visio professional [Microsoft](https://www.microsoft.com/en-ca/microsoft-365/visio/free-visio-viewer)
- 3. For README.md file image Canva software [Canva](https://www.canva.com/)
- 4. For coding enviroment /IDE github [GitHub](http://github.com)
- 5. HTML 5 code sequence and syntax deployed for index.html, signup.html and services.html
- 6. CSS code sequence and syntax deployed for style.css and style1.css
- 7. Java script code sequence and syntax deployed for index.html, services.html and smooth-scroll.js
- 8. Bootstrap cnd 4.4.1 [Bootstrap](https://getbootstrap.com/)
- 9. Bootstrap Jquery 3.4.1 [Bootstrap](https://getbootstrap.com/)
- 10. Bootstrap cnd font awesome [Bootstrap](https://www.bootstrapcdn.com/fontawesome/)
- 11. Smooth Scroll plug in V16.1.4 [GitHub](http://github.com/cferdinandi/smooth-scroll)
- 12. Font Google Poppins [Fontgoogle](https://fonts.google.com/)
+ 1.  For email API plug in [emailjs](https://www.emailjs.com/)
+ 2.  For Google Maps API plug in [Googlemaps](https://cloud.google.com/maps-platform/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_460848633508-ADGP_Hybrid%20%7C%20AW%20SEM%20%7C%20BKWS%20~%20Google%20Maps%20API-KWID_43700033921822012-kwd-1952727095-userloc_9000847&utm_term=KW_google%20map%20api-ST_google%20map%20api&&gclid=Cj0KCQiA2uH-BRCCARIsAEeef3lcIM0O5ronrPfMeghq70q4i7bwzKfNMRz2R2-pLW-XCp0-_H6TYxkaAs5NEALw_wcB)
+ 3.  For Github API plug in [Githubapi](https://docs.github.com/en/free-pro-team@latest/rest)
+ 4.  For README.md file image Canva software [Canva](https://www.canva.com/)
+ 5.  For coding enviroment /IDE github [GitHub](http://github.com)
+ 6.  HTML 5 code sequence and syntax deployed for index.html, signup.html and services.html
+ 7.  CSS code sequence and syntax deployed for style.css and style1.css
+ 8.  Java script code sequence and syntax deployed for index.html.
+ 9.  Jquery script code sequence and syntax deployed in contact.html, github-information.js, maps.js and sendEmails.js
+ 10.  Bootstrap cnd 4.4.1 [Bootstrap](https://getbootstrap.com/)
+ 11. Bootstrap Jquery 3.4.1 [Bootstrap](https://getbootstrap.com/)
+ 12. Bootstrap cnd font awesome [Bootstrap](https://www.bootstrapcdn.com/fontawesome/)
+ 13. Font Google Poppins [Fontgoogle](https://fonts.google.com/)
+  
 
 ---------------------------------------------
 
  ## Deployment
  After my User Acceptance Testing (UAT) I pushed the final version of my code to git hub , in my commit message I cataloged each change before my final push, the steps I took 
- can be seen below, my project is now live on [GitHub](https://peristratus.github.io/bitcoin-wallet/)
+ can be seen below, my project is now live on [GitHub]( https://peristratus.github.io/bootstrap/)
 
  1. Complete the User UAT evaluation and made sure that all phase 1 codes are funtional and operational.
  2. Used git commit -m to catalog all my changes in line with UAT requirement.
  3. Used git push to push my final version to my git hub repository. 
- 4. Clicked on settings on my Peristratus/bitcoin-wallet repository and scrolled down to github pages.
+ 4. Clicked on settings on my Peristratus/bootstrap repository and scrolled down to github pages.
  5. Clicked on select branch drop down menu and then selected master.
 
 -----------------------------------------------
@@ -147,12 +136,11 @@ Technologies deployed on this project:
 I would like to make references to cetain educational Youtube tutorials and certain articles that have helped with my webdesign develop my skills as a Fullstack developer.
 
 
-1. Easy tutorials youtube video on responsive landing pages,websites, scroll plugins and login forms [easytutorial](https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1)
+1. Online tutorials youtube video on responsive landing pages & websites.[Onlinetutorial](https://youtu.be/hlYbsAnn3LM )
 2. Dev Ed Youtube tutorials on responsive web design and login forms [DevED](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
 3. HTML/CSS security by sqreen online article [sqreen](https://www.sqreen.com/checklists/html-css-security-checklist)
 4. Input patterns online article [HTML.com](https://html.com/attributes/input-pattern/)
 5. W3 schools tutorials on Modal forms, HTML patterns and querry for HTML forms.
-6. Tutorial Republic on Modal video pop-ups tutorials.
 
 -----------------------------------------------
 
@@ -160,14 +148,11 @@ I would like to make references to cetain educational Youtube tutorials and cert
 
 All icons,logos and videos used on my website are only for educational purposes and will not be used for the commercial version:
 
-1. Social medial icons free version from icon8 [icon8](https://icons8.com/icons/set/youtube-icon)
-2. Hero image p.1 from free png tree [pngtree](https://icons8.com/icons/set/youtube-icon)
-3. Footer icons [fontawesome](https://fontawesome.com/v4.7.0/icons/)
-4. Bitcoin images and gif image free online images.
-5. Testimonial images free online model(s) smiling images.
-6. Hero image p.2 from free png tree [pngtree](https://icons8.com/icons/set/youtube-icon)
-7. Youtube BBC bitcoin video [BBC](www.youtube.com/embed/SzAuB2FG79A)
-8. Youtube Bitcoin wallet [Youtube](www.youtube.com/embed/cSy2ms0hHLs)
+1. Social medial landing page icons free version from icon8 [icon8](https://icons8.com/icons/set/youtube-icon)
+2. HTML5, CSS, JS and Python Icons, Python gif Image free random images from google search engine [google](https://www.google.com/)
+3. Hero image from Code Institute [codeinstitute](https://icons8.com/icons/set/youtube-icon)
+4. Footer icons [fontawesome](https://fontawesome.com/v4.7.0/icons/)
+5. MP3 music from Youtube [MP3music](https://www.youtube.com/watch?v=lta5go9P-go)
 
 -----------------------------------------------
 

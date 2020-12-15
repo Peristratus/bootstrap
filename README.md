@@ -55,7 +55,7 @@ GitHub button | GB-8.0 | Gain access to the Github button | **As a** user **I wa
 
 ## User-Acceptance-Testing
 
-The UAT will define the criteria by which the website is considered to be "working",high, medium or low defects will be identified and cataloged for further improvements or regression Testing.
+The UAT will define the criteria by which the website is considered to be "working",high, medium or low defects will be identified and cataloged for further improvements or regression testing.
 The UAT critreria and results will confirm if the website can handle required task in a real-world scenarios, according to the Requirements Traceability Catalog Table 1.0.
 
 *Table 2.0 User Acceptance Testing (UAT)*
@@ -132,11 +132,11 @@ I would like to make references to cetain educational Youtube tutorials and cert
 
 All icons,logos and videos used on my website are only for educational purposes and will not be used for the commercial version:
 
-1. Social medial landing page icons free version from icon8 [icon8](https://icons8.com/icons/set/youtube-icon)
-2. HTML5, CSS, JS and Python Icons, Python gif Image free random images from google search engine [google](https://www.google.com/)
-3. Hero image from Code Institute [codeinstitute](https://icons8.com/icons/set/youtube-icon)
+1. Social medial landing page icons free version from [icon8](https://icons8.com/icons/set/youtube-icon)
+2. HTML5, CSS, JS and Python Icons, Python gif Image free random images from [google](https://www.google.com/) search engine.
+3. Hero image from [codeinstitute](https://icons8.com/icons/set/youtube-icon)
 4. Footer icons [fontawesome](https://fontawesome.com/v4.7.0/icons/)
-5. MP3 music from Youtube [MP3music](https://www.youtube.com/watch?v=lta5go9P-go)
+5. Music from Youtube [MP3music](https://www.youtube.com/watch?v=lta5go9P-go)
 
 -----------------------------------------------
 

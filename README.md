@@ -1,6 +1,6 @@
 
 ## Rosie  Resume Website
-![Project Image](/img/orgrosie.jpg)
+![Project Image](/img/rosiedub.pdf)
 
 --------
 

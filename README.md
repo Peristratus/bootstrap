@@ -11,7 +11,7 @@
  - [User-Acceptance-Testing](#User-Acceptance-Testing)
  - [Technologies](#technologies)
  - [Deployment](#Deployment)
- - [References](#Refernces)
+ - [References](#References)
  - [Licenses](#licenses)
  - [Author](#author)
 
